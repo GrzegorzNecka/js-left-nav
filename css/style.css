@@ -1,22 +1,29 @@
 body {
     margin: 0;
-    padding: 0;
     height: 100vh;
+    background-color: #f4f0f1;
+}
+
+* {  
+    font-family: Montserrat, sans-serif;
+    color: #ae475c;
+    font-weight: 600;
 }
 
 #toggle {
     height: 50px;
     width: 50px;
-    background-color: crimson;
+    font-size: 40px;
+    padding: 10px;
     cursor: pointer;
 }
 
 #main-nav {
     position: absolute;
-    top: 50px;
-    left: -300px;
-    width: 300px;
-    background-color: dodgerblue;
+    top: 60px;
+    left: -200px;
+    width: 200px;
+    background-color: #eac81d;
     transition: all 0.4s;
 }
 
@@ -28,6 +35,10 @@ body {
     text-align: center;
 }
 
+#main-nav ul li a {
+    cursor: pointer;
+    text-decoration: none;
+}
 
 .active #main-nav {
     left: 0;
